@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="open_service"
+        android:title="开启悬浮窗服务" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto_run"
+        android:title="开机自动启动" />
+
+    <PreferenceCategory android:title="屏幕" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="screen_keepon"
+            android:title="保持屏幕长亮" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="screen_ori"
+            android:title="保持屏幕方向" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
